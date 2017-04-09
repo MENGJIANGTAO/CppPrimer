@@ -4,21 +4,28 @@
 
 int main()
 {
-    int small = 0, big = 0;
-    std::cout << "please input two integers:";
-    std::cin >> small >> big;
-
-    if (small > big) {
-        int tmp = small;
-        small = big;
-        big = tmp;
-    }
-
-    while (small <= big) {
-        std::cout << small << " ";
-        ++small;
-    }
-    std::cout << std::endl;
-
-    return 0;
+    int val1 = 0,val2 = 0;
+	cout << "Enter two number:" << endl;
+	cin >> val1 >> val2;
+//	int max = val1 > val2 ? val1 : val2;
+//	int min = val1 < val2 ? val1 : val2;
+	if(val1 > val2)
+	{
+		int temp = val1;
+		val1 = val2;
+		val2 = temp;
+	}
+//	while(min <= max)
+//	{
+//		cout << min << endl;
+//		++ min;
+//	}
+	while(val1 <= val2)
+	{
+		cout << val1 << endl;
+		++ val1;
+	}
+	return 0;
 }
+
+
