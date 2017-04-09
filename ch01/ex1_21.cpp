@@ -13,4 +13,18 @@ int main()
         std::cerr << "Data must refer to same ISBN." << std::endl;
         return -1;
     }
+    /*
+    *MINE!
+    */
+    /*Sales_item item1;
+	Sales_item item2;
+	cin >> item1 >> item2;
+	if(compareIsbn(item1,item2))
+	{
+		cout << item1+item2;
+	}
+	else
+	{
+		cout << "Diffent isbn." << endl;
+	}*/
 }
