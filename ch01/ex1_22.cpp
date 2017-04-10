@@ -21,5 +21,31 @@ int main()
         return -1;
     }
 
+    /*
+    Sales_item sum;
+
+	if(cin >> sum)
+	{
+		Sales_item item3;
+		while(cin >> item3)
+		{
+			if(sum.isbn() == item3.isbn())
+			{
+				sum += item3;
+				cout << "result:" << sum << endl;
+			}
+			else
+			{
+				cout << "result:" << sum << endl;
+				sum = item3;
+			}
+		}
+		cout << "result:" << sum << endl;
+	}
+	else
+	{
+		cerr << "Error." << endl;
+	}
+	*/
     return 0;
 }
