@@ -22,6 +22,31 @@ int main()
     return 0;
 
     /*
+    Sales_item item1;
+	Sales_item item2;
+	if(cin >> item1)
+	{
+		int counter = 1;
+		while(cin >> item2)
+		{
+			if(item1.isbn() == item2.isbn())
+			{
+				++counter;
+			}
+			else
+			{
+				cout << item1 << "Sales : " << counter << " times." << endl;
+				item1 = item2;
+				counter = 1;
+			}
+		}
+		cout << item1 << "Sales : " << counter << " times." << endl;
+	}
+	else
+	{
+		cerr << "Error." << endl;
+	}
+	
     unsigned sold() const
 	{
 		return units_sold;
