@@ -20,4 +20,12 @@ int main()
         std::cout << currItem << " occurs " << cnt << " times " << std::endl;
     }
     return 0;
+
+    /*
+    unsigned sold() const
+	{
+		return units_sold;
+	}
+	*/
 }
+
